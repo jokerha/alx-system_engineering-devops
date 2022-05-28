@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +0111 ..
+chmod --preserve-root -R +0111 .
