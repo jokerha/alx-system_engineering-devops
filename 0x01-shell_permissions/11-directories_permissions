@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --preserve-root -R +0111 .
+find . -type d -exec chmod +0111 {} \;
